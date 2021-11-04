@@ -71,7 +71,6 @@ impl IPv6Parser {
         // check if ip is too short
         self.max_colons <= self.colon_counter || self.had_double_colon
         
-
     }
 }
 
